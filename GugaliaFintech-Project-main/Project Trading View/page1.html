@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="Images/apple-touch-icon-180x180.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="main 1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Trading View</title>
+</head>
+
+<body>
+    <div class="bg-img">
+
+
+        <!--  -->
+        <div class="container">
+            <div class="topnav">
+                <input type="checkbox" name="" id="check">
+
+                <div class="logo-container">
+                    <h3 class="logo">Trading<span>View</span></h3>
+                </div>
+
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="#">Charts</a>
+                            </li>
+                            <li class="nav-link" style="--i: .85s">
+                                <a href="#">Market<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Trade<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Top Brokers</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Broker Awards</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <div class="arrow"></div>
+                                        <li class="dropdown-link">
+                                            <a href="#">Sparks<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">All Sparks</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Work</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Play</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Industry & Infrastructure</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Transport & Logistics</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Finance</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Crpto</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Enviroment and Inclusion</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Countries</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Miscellaneous</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Countries<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">United States </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Canada</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">United Kingdom</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Germany </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">India </a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Japan </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">China</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Hongkong</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Saudi Arabia</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Australia</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Stocks<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Large-Cap</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">High-divided</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Top Gainer</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Top Loosers</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Most Active</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Pre-market movers</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Afer-hours movers</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Most-volatile</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Largest employeer</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Most expensive</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">All-time High</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">All-time Low</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Cryptocurrencies<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Prices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Def Coins</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Market Cap Charts</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Top Gainers</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Top Loosers</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#" Bit Coin</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Ethereum</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">XRP</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Cardano</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Most expensive</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Tether</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Dogecoin</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Currencies<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Major</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Minor</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Exotic</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Americas</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Europe</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Asia</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Pacific</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Middle East</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Africa</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Cross Rates</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Heat <Map></Map></a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Currency Indices</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Indices<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Major World Indices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Us indices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">S & P sectors</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Currency indices</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Future<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Agriculture</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Energy</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Currency</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Metal</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">World indices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Interst rates</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Bonds<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Major 10Y</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Americas</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Europe</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Pacific</a>
+                                                    </li>
+
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Middle East</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Africa</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">News<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Sanps<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">All-in-one</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Stocks</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Crypto</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Indices</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Breaking News<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">All-in-one</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Stocks</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Crypto</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Curriencies</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Indices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Future</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Bonds</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">Sreeners<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Stock Screener</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Forex Screener</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Crypto Screener</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Crypto Heatmap</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Crypto Heatmap</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">Community<i class="fas fa-caret-down"></i></a>
+
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Live Stream</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Trade Ideas<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Editor's Pick</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Popular Ideas</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Stocks</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Cryptocurriencies</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Forex</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Indices</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Future</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Bonds</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Scripts<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Editor's Pick</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Popular Script </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Indicator</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Statergies</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Libraries</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Oscillators</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trens Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trens Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trend Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Volume</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Volatility</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Breadth indicators</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Fundamentals</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Chart Analysis <i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trend Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Support and resistance </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Fibonacci</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trend Lines</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Wave analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Elliott waves</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Technical indicators</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Options</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Volume Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Chart patters</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Volatility</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Gann</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Harmonics</a>
+                                                    </li>
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">Beyond technical Analysis <i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Fundamental Analysis</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trading Tools</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Trading plans</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Risc management </a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Micro economics</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Dividends</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Earnings</a>
+                                                    </li>
+
+
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <li class="dropdown-link">
+                                            <a href="#">More <i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">House Rules</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Moderators</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Refer a friend</a>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <div class="arrow"></div>
+                                        <li class="nav-link" style="--i: 1.1s">
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Pricing</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Features</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Help center</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Desktop App</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">About</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Athlets</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Blog & News</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Wall of Love</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Careers</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">For a business <i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Website & broker solutions</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Widges</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Charting solutions</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Lightweight Library</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Brokerage integration</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Partner Program</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Advertising</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="log-sign" style="--i: 1.8s">
+                        <a href="#" class="btn transparent">Log in</a>
+                        <a href="#" class="btn solid">Sign up</a>
+                    </div>
+
+
+                </div>
+
+
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 
+            
+         -->
+        <div class="section-title">
+
+            <section class="text text-gray-600 body-font ">
+                <span>Look first</span>
+            </section>
+            <section class="search text-gray-600 body-font ">
+                <form>
+                    <input type="search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+
+            </section>
+            <section class="button text-gray-600 body-font ">
+                <a href="#" class="btn-flex "><i class="fa-brands fa-bitcoin"></i> BTCUSD</a>
+                <a href="#" class="btn-flex ">Get Started</a>
+                <a href="#" class="btn-flex "><i class="fa-brands fa-apple"></i>AAPL</a>
+            </section>
+            </section>
+        </div>
+    </div>
+
+    <div class="content-dW19">
+        <strong class="title-dw">Chart. Chat. repeat</strong>
+        <p class="Description-dw">Join 30 millions traders and investors making better, brighter decisions in the world
+            markets.</p>
+        <a class="round-button-p9ma7wH8 color-brand-p9ma7wH8 variant-primary-p9ma7wH8 size-xlarge-p9ma7wH8">
+            <span class="content-p9">Explore features</span>
+        </a>
+        <div class="videoCointainer">
+            <video class="video-oW19cqIy" src="video/a.mp4" muted autoplay loop playsinline></video>
+        </div>
+    </div>
+
+
+    <div class="container-xSDKvQ1L" data-reactroot="">
+        <div class="container-bmVRp5PX header-xSDKvQ1L">
+            <h2 class="title-bmVRp5PX">Markets at your fingertips</h2>
+            <p class="description-bmVRp5PX">Get a feel for what's moving with real-time global data feeds and top
+                stories.</p>
+        </div>
+        <div class="container-alnYXDZ9 cards-tCC0nn5v"><a href="/key-events/"
+                class="container-sYCFK9Bm containerLink-sYCFK9Bm title-alnYXDZ9 titleWithSubtitle-alnYXDZ9">
+                <h2 class="title-sYCFK9Bm title-small-sYCFK9Bm">Snaps<span class="icon-sYCFK9Bm"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 11" width="6" height="11">
+                            <path fill="currentColor" d="M1.6 10.96 0 9.66l3.26-3.7L0 2.26 1.6.96l4.4 5-4.4 5Z"></path>
+                        </svg></span></h2>
+            </a><span class="subtitle-alnYXDZ9">Your essential 20 second market digests.</span>
+            <div class="container-cGvBluIh">
+                <div class="items-cGvBluIh filmstripItems-QOCvhsso">
+                    <div class="offsetZone-cGvBluIh internal-cGvBluIh"></div>
+                    <div class="intersectionZone-cGvBluIh internal-cGvBluIh"><span
+                            class="intersectionDetector-cGvBluIh intersectionLeft-cGvBluIh" style="width:5px"></span>
+                    </div>
+                    <div class="scrollBtnWrapper-cGvBluIh internal-cGvBluIh">
+                        <div class="scrollButtonCircleLeft-xgIeVVI2 scrollBtn-cGvBluIh leftScrollBtn-cGvBluIh"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" width="10" height="16">
+                                <path d="M9.4 1.4l-1.4-1.4-8 8 8 8 1.4-1.4-6.389-6.532 6.389-6.668z"></path>
+                            </svg></div>
+                    </div>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/5-min_50395009.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/crypto/XTVCGMTSTEPN.svg" alt=""><span
+                                    class="short-name-y74WeILx">GMTUSD</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/GMTUSD/history-timeline/#stepn-is-tripn-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">StepN is tripN</a>
+                        <p class="paragraph-ou8qRW7R">Investors are told to put their feet up and watch Love Island or
+                            something as StepN suffers an attack that brings down its servers.</p>
+                    </article>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/2-min_50394902.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/buzzfeed.svg" alt=""><span
+                                    class="short-name-y74WeILx">BZFD</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/NASDAQ-BZFD/history-timeline/#is-buzzfeed-bottoming-out-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">Is BuzzFeed bottoming out?</a>
+                        <p class="paragraph-ou8qRW7R">Take this quiz to find out why BuzzFeed just hit its lowest ever
+                            price. Cba? Ok, don’t fret, we’ll just tell you.</p>
+                    </article>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/1-min-2_50395307.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBNB.svg" alt=""><span
+                                    class="short-name-y74WeILx">BNBUSD</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/BNBUSD/history-timeline/#binance-wants-all-the-headlines-this-week-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">Binance wants all the headlines this week</a>
+                        <p class="paragraph-ou8qRW7R">From SEC probes to money laundering enablement allegations to
+                            pancake investments, Binance sure has had a busy week – and it’s only Tuesday.</p>
+                    </article>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/4-min_50394980.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/sunpower.svg" alt=""><span
+                                    class="short-name-y74WeILx">SPWR</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/NASDAQ-SPWR/history-timeline/#solar-stocks-moment-in-the-sun-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">Solar stocks' moment in the sun</a>
+                        <p class="paragraph-ou8qRW7R">Solar companies are shining atm after J-Biden handed the industry
+                            some celebration-worthy news.</p>
+                    </article>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/3-min_50394947.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg" alt=""><span
+                                    class="short-name-y74WeILx">BTCUSD</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/BTCUSD/history-timeline/#to-squeeze-or-not-to-squeeze-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">To squeeze or not to squeeze</a>
+                        <p class="paragraph-ou8qRW7R">Is Bitcoin going to trade between $28.5k and $31.5k for the rest
+                            of eternity? Perhaps it should be reconsidered as a stablecoin.</p>
+                    </article>
+                    <article class="card-exterior-py0Z6Vne card-wcFq5DAF stretch-link-title-wcFq5DAF card-tCC0nn5v">
+                        <div class="preview-9LOIToJf ratio2by1-9LOIToJf">
+                            <picture class="picture-9LOIToJf"><img
+                                    src="https://s3.tradingview.com/timeline/6-min_50395043.jpg" role="presentation"
+                                    loading="lazy" class="image-9LOIToJf"></picture>
+                        </div>
+                        <div class="section-l72ESwYU margin-large-l72ESwYU ticker-TuOuD4ax"><span
+                                class="logo-icon-y74WeILx with-short-name-y74WeILx"><img
+                                    class="tv-circle-logo tv-circle-logo--xxsmall"
+                                    src="https://s3-symbol-logo.tradingview.com/apple.svg" alt=""><span
+                                    class="short-name-y74WeILx">AAPL</span></span><span class="dot-TuOuD4ax"
+                                aria-hidden="true">・</span><time class="publication-date-HygMH7B8"
+                                datetime="2022-06-07T00:00:00.000Z">Jun 07</time></div><a
+                            href="https://www.tradingview.com/symbols/NASDAQ-AAPL/history-timeline/#wwdc-time-2022-06-07"
+                            class="title-WhT3GQIm stretched-link-WhT3GQIm">WWDC time</a>
+                        <p class="paragraph-ou8qRW7R">We’ve finally been given an edit button! But not the kind
+                            everyone’s been waiting for (Twitter, we’re looking at you) – but get those screengrabs
+                            ready cause iMessages are edit ready.</p>
+                    </article><a class="card-o06FVXlT" href="/key-events/">
+                        <p class="content-o06FVXlT"><span class="wrap-o06FVXlT"><span class="text-o06FVXlT">See all
+                                    snaps</span>&nbsp;<span class="arrow-o06FVXlT"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 11" width="6" height="11">
+                                        <path fill="currentColor"
+                                            d="M1.6 10.96 0 9.66l3.26-3.7L0 2.26 1.6.96l4.4 5-4.4 5Z"></path>
+                                    </svg></span></span></p>
+                    </a>
+                    <div class="scrollBtnWrapper-cGvBluIh internal-cGvBluIh">
+                        <div
+                            class="scrollButtonCircleRight-xgIeVVI2 scrollBtn-cGvBluIh rightScrollBtn-cGvBluIh isVisible-xgIeVVI2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" width="10" height="16">
+                                <path d="M.6 1.4l1.4-1.4 8 8-8 8-1.4-1.4 6.389-6.532-6.389-6.668z"></path>
+                            </svg></div>
+                    </div>
+                    <div class="intersectionZone-cGvBluIh internal-cGvBluIh"><span
+                            class="intersectionDetector-cGvBluIh intersectionRight-cGvBluIh" style="width:5px"></span>
+                    </div>
+                    <div class="offsetZone-cGvBluIh internal-cGvBluIh"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
